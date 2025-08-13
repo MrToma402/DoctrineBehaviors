@@ -35,7 +35,7 @@ class DoctrineBehaviorsExtension extends Extension
     /**
      * {@inheritDoc}
      */
-    public function getAlias()
+    public function getAlias(): string
     {
         return 'knp_doctrine_behaviors';
     }
